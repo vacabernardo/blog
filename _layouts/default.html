@@ -1,20 +1,15 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="UTF-8">
-<title>Title of the document</title>
-</head>
-<body>
-    <header>
-        <h1>Blog título</h1>
-            <nav>
-                <ul>
-                    <li><a href="{{site.baseurl}}index.html">Home</a></li>
-                    <li><a href="{{site.baseurl}}news/">News</a></li>
-                </ul>    
-            </nav>
-    </header>
-    
-{{content}}
+<html lang="en">
+
+{% include head.html %}
+
+<body id="page-top">
+  {% include nav-blog.html %}
+
+  {{ content }}
+
+  {% include contact.html %}
+  {% include scripts.html %}
 </body>
+
 </html>
