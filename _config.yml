@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 markdown: redcarpet
 baseurl: /blog/
+=======
+permalink: pretty
+>>>>>>> origin/master
